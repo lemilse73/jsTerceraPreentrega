@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      
+      .contenedor-principal {
+        display: flex;
+      }
+      .contenedor-productos {
+        margin-right: 20px;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="formulario">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+    
+      <label for="mail">Correo electrónico:</label>
+      <input type="email" id="mail" name="mail" required>
+    
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono" required>
+    
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div id="contenedor"></div>
+    <script src="./miarchivo.js"></script>
+  </body>
+</html>
